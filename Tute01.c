@@ -6,6 +6,23 @@
 
 int main() {
   
-  return 0;
+  //create variable
+  float x,y;
+  
+
+ // get input
+  printf("enter mark1-");
+  scanf("%f",&x);
+
+  printf("enter mark2-");
+  scanf("%f",&y);
+  
+  //Calculate
+  
+  float avg;
+  avg=(x+y)/2.0;
+
+  printf("average is: %.2f\n",avg);
+  return 0 ;
 }
 
